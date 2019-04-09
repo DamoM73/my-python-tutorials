@@ -1,14 +1,8 @@
-import tkinter as tk
+from tkinter import *
 
-class Main(tk.Tk):
-    def __init__(self):
-        super().__init__()
+# **** Create window ****
+root = Tk()
+root.geometry("600x400")
+root.title("Tkinter Create Window")
 
-        self.title("Window Name")
-        self.geometry("1000x600")
-
-
-
-# ---- MAIN PROGRAM ----
-main = Main()
-main.mainloop()
+root.mainloop()
