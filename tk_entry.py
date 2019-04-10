@@ -10,7 +10,7 @@ def read_entry():
 # **** Create window ****
 root=Tk()
 root.geometry("300x200")
-root.title("Tkinter Entry")
+root.title("Tkinter Entry Example")
 
 
 # **** Display window content ****
