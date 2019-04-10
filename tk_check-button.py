@@ -1,7 +1,7 @@
 from tkinter import *
 
 # **** Functions ****
-def display_check():
+def display():
     check_value = check_state.get()
     value_label.config(text=str(check_value))
 
@@ -15,11 +15,8 @@ root.title("Tkinter Check Button")
 Label(root, text="Check Box Example").pack()
 
 check_state = IntVar()
-check_ck = Checkbutton(root, text="Click this check button", variable=check_state)
+check_ck = Checkbutton(root, text="Click this check button", variable=check_state, command=display)
 check_ck.pack()
-
-display_btn = Button(root, text="Display value", command=display_check)
-display_btn.pack()
 
 value_label = Label(root)
 value_label.pack()
