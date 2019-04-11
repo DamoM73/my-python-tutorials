@@ -2,7 +2,7 @@ from tkinter import *
 
 # **** Functions ****
 def display():
-    response = choice.get()
+    response = radio_control.get()
     display_label.config(text=response+" selected")
 
 
@@ -16,13 +16,13 @@ root.title("Tkinter Radio Button Example")
 Label(root, text="Radio Button Example").pack()
 
 # Create radio buttons
-choice = StringVar(value="Option 1")
-Radiobutton(root, text="Option 1", variable=choice, value="Option 1", command=display).pack()
-Radiobutton(root, text="Option 2", variable=choice, value="Option 2", command=display).pack()
-Radiobutton(root, text="Option 3", variable=choice, value="Option 3", command=display).pack()
-Radiobutton(root, text="Option 4", variable=choice, value="Option 4", command=display).pack()
+radio_control = StringVar(value="Option 1")
+Radiobutton(root, text="Option 1", variable=radio_control, value="Option 1", command=display).pack()
+Radiobutton(root, text="Option 2", variable=radio_control, value="Option 2", command=display).pack()
+Radiobutton(root, text="Option 3", variable=radio_control, value="Option 3", command=display).pack()
+Radiobutton(root, text="Option 4", variable=radio_control, value="Option 4", command=display).pack()
 
-display_label = Label(root, text=choice.get()+" selected")
+display_label = Label(root, text=radio_control.get()+" selected")
 display_label.pack()
 
 
