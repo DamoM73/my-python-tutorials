@@ -9,7 +9,7 @@ def display():
 # **** Create window ****
 root = Tk()
 root.geometry("300x200")
-root.title("Tkinter Listbox example")
+root.title("Tkinter Listbox Example")
 
 # *** Window content ****
 Label(root, text="List Box Example").pack()

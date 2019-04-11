@@ -2,7 +2,7 @@ from tkinter import *
 
 root = Tk()
 #root.geometry("300x200")
-root.title("Tkinter Frames")
+root.title("Tkinter Frames Example (brief)")
 
 # **** Create and pack top label ****
 Label(root, text="One", bg="blue", fg="white").pack(fill=BOTH, expand=TRUE)

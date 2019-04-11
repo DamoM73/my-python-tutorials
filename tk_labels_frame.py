@@ -3,7 +3,7 @@ from tkinter import *
 # **** Create window ****
 root = Tk()
 root.geometry("300x200")
-root.title("Tkinter Create Window")
+root.title("Tkinter Label Frame Example")
 
 # **** Add window content ****
 example_label_frame = LabelFrame(root, text="A collection of labels", padx=5, pady=5)

@@ -9,7 +9,7 @@ def display():
 # **** Create window ****
 root = Tk()
 root.geometry("300x200")
-root.title("Tkinter Check Button")
+root.title("Tkinter Check Button Example")
 
 # **** Window content ****
 Label(root, text="Check Box Example").pack()

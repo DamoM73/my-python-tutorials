@@ -3,7 +3,7 @@ from tkinter import *
 # **** Create window ****
 root = Tk()
 root.geometry("300x200")
-root.title("Tkinter pack")
+root.title("Tkinter Pack Example")
 
 # **** Create and pack label ****
 label_one = Label(root, text="One", bg="blue", fg="white")
