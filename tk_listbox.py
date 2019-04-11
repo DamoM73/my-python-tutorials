@@ -28,6 +28,5 @@ display_label = Label(root, text="")
 display_label.pack()
 
 
-
 # **** Window loop ****
 root.mainloop()
