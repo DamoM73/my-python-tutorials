@@ -1,3 +1,5 @@
+# example program on how to use tkitner frames in classes
+
 import tkinter as tk
 
 class Main(tk.Tk):

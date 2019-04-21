@@ -1,3 +1,5 @@
+# example of how to use the tkinter canvas widget
+
 from tkinter import *
 
 # **** Create window ****

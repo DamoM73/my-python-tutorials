@@ -1,3 +1,5 @@
+# example program for tkinter's labels widget
+
 from tkinter import *
 
 # **** Create window ****

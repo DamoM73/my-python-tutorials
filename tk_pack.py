@@ -1,3 +1,5 @@
+# example program for using tkinter's pack geometry manager 
+
 from tkinter import *
 
 # **** Create window ****

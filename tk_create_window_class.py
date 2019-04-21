@@ -1,3 +1,5 @@
+# example program showing how to create a class based window using tkinter
+
 import tkinter as tk
 
 class Main(tk.Tk):

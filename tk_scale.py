@@ -1,3 +1,5 @@
+# example program for using tkinter's scale widget
+
 from tkinter import *
 
 # **** Functions ****

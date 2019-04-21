@@ -1,3 +1,5 @@
+# example program for using tkinter's radio button widget
+
 from tkinter import *
 
 # **** Functions ****
