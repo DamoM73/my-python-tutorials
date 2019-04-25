@@ -1,3 +1,5 @@
+# example program of how to use tkinter's frames
+
 from tkinter import *
 
 root = Tk()

@@ -1,3 +1,5 @@
+# example program for tkinter's listbox widget
+
 from tkinter import *
 
 # **** Functions ****

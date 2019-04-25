@@ -1,3 +1,5 @@
+# example program for using tkinter's  spinbox widget
+
 from tkinter import *
 
 # **** Functions ****

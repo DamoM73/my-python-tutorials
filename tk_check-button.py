@@ -1,3 +1,5 @@
+# example program in how to use the tkinter checkbutton widget
+
 from tkinter import *
 
 # **** Functions ****

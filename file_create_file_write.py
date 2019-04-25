@@ -1,7 +1,5 @@
-'''
-Example of creatinga file using write and writing to the file
-If the file already exists it will replace the content of that file.
-'''
+# Example of creatinga file using write and writing to the file
+# If the file already exists it will replace the content of that file.
 
 file = open("demofile_2.txt", "w")
 

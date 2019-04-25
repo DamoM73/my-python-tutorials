@@ -1,3 +1,5 @@
+# example program for using tkinter's grid geometery manager
+
 from tkinter import *
 
 # **** Create window ****

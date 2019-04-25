@@ -1,3 +1,5 @@
+# example of how to use the tkinter button widget
+
 from tkinter import *
 
 # **** Functions ****

@@ -1,3 +1,5 @@
+# example program for using tkinter's option menu widget
+
 from tkinter import *
 
 # **** Functions ****

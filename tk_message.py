@@ -1,3 +1,5 @@
+# example program for using tkinter's message widget
+
 from tkinter import *
 
 # **** Create window ****

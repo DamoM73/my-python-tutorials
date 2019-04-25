@@ -1,3 +1,5 @@
+# example program for the tkineter entry widget
+
 from tkinter import *
 
 # **** Functions ****

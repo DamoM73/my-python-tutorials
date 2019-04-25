@@ -1,3 +1,5 @@
+# example program for creating a window in tkinter
+
 from tkinter import *
 
 # **** Create window ****
