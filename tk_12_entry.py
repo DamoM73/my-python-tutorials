@@ -1,6 +1,6 @@
-# example program for the tkineter entry widget
-
+'''example program for the tkineter entry widget'''
 from tkinter import *
+
 
 # **** Functions ****
 def display():
@@ -15,18 +15,16 @@ root.geometry("300x200")
 root.title("Tkinter Entry Example")
 
 
-# **** Display window content ****
+# **** Add window content ****
 Label(root, text="Entry Widget").grid(row=0,column=0,columnspan=3)
-
 Label(root,text="Enter message:").grid(row=1,column=0)
 
 entry_box = Entry(root)
 entry_box.grid(row=1, column=1)
 
-display_btn = Button(root, text="Display", command=display)
-display_btn.grid(row=1, column=2)
+display_btn = Button(root, text="Display", command=display).grid(row=1, column=2)
 
-display_label = Label(root, text="")
+display_label = Label(root)
 display_label.grid(row=2,column=0, columnspan=3)
 
 

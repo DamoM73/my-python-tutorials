@@ -1,6 +1,8 @@
 '''example program for creating popup menus in tkinter'''
 from tkinter import *
 
+
+# **** Functions ****
 def hello():
     message.config(text="Hello")
 
@@ -27,6 +29,7 @@ popup_menu.add_command(label="Goodbye", command=goodbye)
 
 # bind popup to label
 message.bind("<Button-3>", popup)
+
 
 # **** Run window loop ****
 root.mainloop()

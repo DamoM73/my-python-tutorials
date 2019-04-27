@@ -1,6 +1,8 @@
 '''example program for creating menus in tkinter'''
 from tkinter import *
 
+
+# **** Functions ****
 def hello():
     message.config(text="Hello")
 
@@ -13,13 +15,15 @@ def white():
 def yellow():
     message.config(bg="yellow")
 
+
 # **** Create window ****
 root = Tk()
 root.geometry("300x200")
 root.title("Tkinter Menu Example")
 
+
 # **** Add content to window ****
-message = Label(root, text="", bg="white")
+message = Label(root, bg="white")
 message.pack(fill=BOTH, expand=YES)
 
 # create menu
@@ -39,6 +43,7 @@ menubar.add_cascade(label="Background", menu=bg_menu)
 
 # dsiplay menu
 root.config(menu=menubar)
+
 
 # **** Run window loop ****
 root.mainloop()
