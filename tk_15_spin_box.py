@@ -15,7 +15,7 @@ root.title("Tkinter Spin Box Example")
 
 
 # **** Add window content ****
-Label(root, text="Spin Box Example")
+Label(root, text="Spin Box Example").pack()
 
 choice_sb = Spinbox(root, from_=0, to=5, command=display)
 choice_sb.pack()

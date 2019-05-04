@@ -14,7 +14,7 @@ root.title("Tkinter Scale Example")
 
 
 # **** Add window content ****
-Label(root,text="Scale Example")
+Label(root,text="Scale Example").pack()
 
 value = DoubleVar()
 Scale(root, variable=value).pack()

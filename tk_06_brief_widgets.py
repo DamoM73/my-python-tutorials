@@ -18,8 +18,7 @@ Label(middle_frame, text="Three", bg="red", fg="black").pack(side=LEFT, fill=BOT
 Label(middle_frame, text="Four", bg="green", fg="black").pack(side=LEFT, fill=BOTH, expand=TRUE)
 
 # **** Create and pack bottom label
-label_five = Label(root, text="Five", bg="purple", fg="white")
-label_five.pack(fill=BOTH, expand=TRUE)
+Label(root, text="Five", bg="purple", fg="white").pack(fill=BOTH, expand=TRUE)
 
 # **** Run window loop ****
 root.mainloop()
