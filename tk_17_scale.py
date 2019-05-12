@@ -16,7 +16,7 @@ root.title("Tkinter Scale Example")
 # **** Add window content ****
 Label(root,text="Scale Example").pack()
 
-value = DoubleVar()
+value = IntVar()
 Scale(root, variable=value).pack()
 
 Button(root, text="Display slider value", command=display).pack()

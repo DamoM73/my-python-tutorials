@@ -21,8 +21,7 @@ Label(root, text="Choose an option").grid(row=1, column=0)
 option_list = ('Option 1', 'Option 2', 'Option 3', 'Option 4')
 option_control=StringVar()
 option_control.set(option_list[0])
-choice = OptionMenu(root, option_control, *option_list)
-choice.grid(row=1,column=1)
+choice = OptionMenu(root, option_control, *option_list).grid(row=1,column=1)
 
 Button(root, text="Display selected value", command=display).grid(row=2, column=0, columnspan=2)
 
